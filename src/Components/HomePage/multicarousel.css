@@ -1,0 +1,56 @@
+.slick-arrow.slick-prev{
+font-size:40px;
+background:rgba(255, 255, 255, 0.551);
+width:47px;
+height:104px;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:1;
+}
+.slick-arrow.slick-next{
+font-size:40px;
+background:rgba(255, 255, 255, 0.551);
+width:47px;
+height:104px;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:1;
+
+}
+.slick-prev::before{
+display:none;
+}
+
+.wd-view-port{
+    font-size: 1.2vw;
+    }
+
+.slick-next::before{
+display:none;
+}
+
+.slick-next{
+right:0px;
+}
+
+.multi-image:hover{
+transform :scale(1.1);
+transition:500ms;
+}
+.small-ratings{
+margin-left:30%;
+}
+.small-ratings i {
+    color: #cecece;
+}
+
+.review-stat {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.rating-color {
+    color: #fbc634 !important;
+}

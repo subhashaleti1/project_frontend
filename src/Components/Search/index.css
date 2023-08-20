@@ -1,0 +1,151 @@
+.wd-margin-left {
+    margin-left: 12px;
+}
+
+.wd-bg-transparent {
+    background-color: rgba(194, 227, 227, 0.274);
+}
+
+.wd-bg-image {
+
+    background-image: url("../Images/search_background.jpeg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+
+.wd-bg-transparent {
+    background-color: rgba(76, 120, 120, 0.4)
+}
+
+wd-button-star {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.on {
+    color: #000;
+}
+.off {
+    color: #ccc;
+    
+}
+
+body {
+    background: #232323;
+}
+.accordion{
+    margin: 40px 0;
+}
+.accordion .item {
+    border: none;
+    margin-bottom: 50px;
+}
+.t-p{
+    color: rgb(193 206 216);
+    padding: 40px 30px 0px 30px;
+}
+.accordion .item .item-header h2 button.btn.btn-link {
+    background: #333435;
+    color: white;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.5;
+    text-decoration: none;
+}
+.accordion .item .item-header {
+    border-bottom: none;
+    padding: 0px;
+    margin: 2px;
+}
+
+.accordion .item .item-header h2 button {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .item .item-header h2 i {
+    float: right;
+    font-size: 30px;
+    color: #eca300;
+    background-color: black;
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button.btn.btn-link.collapsed i {
+    transform: rotate(0deg);
+}
+
+button.btn.btn-link i {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 20px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.wd-my-list-button {
+    background-color: red;
+    color: blue;
+}
+
+.wd-icon-pos {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.accordion-header{
+    background-color: #222f3e;
+    color: #fff;
+}
+
+.accordion-item:accordion-button:rounded:collapsed{
+    background-color: #222f3e;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after{
+    color:#fff
+}
+
+.category-list{
+    display:inline-block; 
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+

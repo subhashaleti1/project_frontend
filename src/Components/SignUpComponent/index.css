@@ -1,0 +1,12 @@
+.wd-signup-container{
+    width:80%;
+    min-height: 90%;
+    border-radius: 24px;
+    background-color: white;
+    border-color: grey;
+    box-shadow: 0 1px 1px white inset, 0 0 8px grey;
+    outline: 0 none;
+}
+.wd-form-signup-text{
+    text-align: center;
+}

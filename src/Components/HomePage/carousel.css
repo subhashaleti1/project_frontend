@@ -1,0 +1,35 @@
+.slick-arrow.slick-prev{
+font-size:40px;
+background: transparent;
+width:47px;
+height:104px;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:1;
+}
+.slick-arrow.slick-next{
+font-size:40px;
+background:rgba(255, 255, 255, 0.551);
+width:47px;
+height:104px;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:1;
+
+}
+.slick-prev::before{
+display:none;
+}
+
+.slick-next::before{
+display:none;
+}
+.slick-prev{
+left:0px;
+
+}
+.slick-next{
+right:0px;
+}
